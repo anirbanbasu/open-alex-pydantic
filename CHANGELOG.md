@@ -8,7 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and versi
 
 ### Added
 
-- None documented yet.
+- An initialised-only Spec Kit setup with the GitHub Copilot integration.
+- A Pydantic model for the Work entity.
 
 ### Changed
 
