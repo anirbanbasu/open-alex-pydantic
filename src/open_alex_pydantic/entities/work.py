@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from typing import Optional
+from pydantic import Field
 
 from open_alex_pydantic.entities.base import BaseEntity
 
@@ -62,7 +63,7 @@ class WorkCountByYear(BaseEntity):
 class WorkSustainableDevelopmentGoal(BaseEntity):
     """A UN Sustainable Development Goal with a relevance score for a Work."""
 
-    id: str
+    id_: str = Field(alias="id")
     display_name: str
     score: float
 
@@ -87,7 +88,7 @@ class HasContent(BaseEntity):
 class DehydratedSource(BaseEntity):
     """Reduced-field Source used in nested contexts (e.g. inside a Location)."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     display_name: Optional[str] = None
     issn_l: Optional[str] = None
     issn: Optional[list[str]] = None
@@ -97,7 +98,7 @@ class DehydratedSource(BaseEntity):
     host_organization: Optional[str] = None
     host_organization_name: Optional[str] = None
     host_organization_lineage: Optional[list[str]] = None
-    type: Optional[str] = None
+    type_: Optional[str] = Field(default=None, alias="type")
 
 
 class Location(BaseEntity):
@@ -107,7 +108,7 @@ class Location(BaseEntity):
     landing_page_url: Optional[str] = None
     pdf_url: Optional[str] = None
     source: Optional[DehydratedSource] = None
-    license: Optional[str] = None
+    license_: Optional[str] = Field(default=None, alias="license")
     license_id: Optional[str] = None
     version: Optional[str] = None
     is_accepted: Optional[bool] = None
@@ -126,7 +127,7 @@ class OpenAccess(BaseEntity):
 class DehydratedAuthor(BaseEntity):
     """Reduced-field Author used in nested contexts (e.g. inside Authorship)."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     display_name: Optional[str] = None
     orcid: Optional[str] = None
 
@@ -134,11 +135,11 @@ class DehydratedAuthor(BaseEntity):
 class DehydratedInstitution(BaseEntity):
     """Reduced-field Institution used in nested contexts (e.g. inside Authorship)."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     display_name: Optional[str] = None
     ror: Optional[str] = None
     country_code: Optional[str] = None
-    type: Optional[str] = None
+    type_: Optional[str] = Field(default=None, alias="type")
     lineage: Optional[list[str]] = None
 
 
@@ -165,14 +166,14 @@ class Authorship(BaseEntity):
 class TopicHierarchyEntry(BaseEntity):
     """A reference to an item in the topic hierarchy (subfield, field, or domain)."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     display_name: Optional[str] = None
 
 
 class WorkTopic(BaseEntity):
     """A topic assigned to a Work with a relevance score and hierarchy context."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     display_name: Optional[str] = None
     score: Optional[float] = None
     subfield: Optional[TopicHierarchyEntry] = None
@@ -183,7 +184,7 @@ class WorkTopic(BaseEntity):
 class WorkKeyword(BaseEntity):
     """A keyword associated with a Work, derived from its topics."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     display_name: Optional[str] = None
     score: Optional[float] = None
 
@@ -191,7 +192,7 @@ class WorkKeyword(BaseEntity):
 class DehydratedFunder(BaseEntity):
     """Reduced-field Funder used in nested contexts (e.g. inside a Work)."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     display_name: Optional[str] = None
     ror: Optional[str] = None
 
@@ -199,7 +200,7 @@ class DehydratedFunder(BaseEntity):
 class WorkAward(BaseEntity):
     """A dehydrated funding award linked to a Work."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     display_name: Optional[str] = None
     funder_award_id: Optional[str] = None
     funder_id: Optional[str] = None
@@ -210,7 +211,7 @@ class WorkAward(BaseEntity):
 class WorkConcept(BaseEntity):
     """A legacy concept tag assigned to a Work (deprecated — use topics instead)."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     wikidata: Optional[str] = None
     display_name: Optional[str] = None
     level: Optional[int] = None
@@ -225,13 +226,13 @@ class WorkConcept(BaseEntity):
 class Work(BaseEntity):
     """A scholarly document (article, book, dataset, thesis, etc.) in OpenAlex."""
 
-    id: Optional[str] = None
+    id_: Optional[str] = Field(default=None, alias="id")
     doi: Optional[str] = None
     title: Optional[str] = None
     display_name: Optional[str] = None
     publication_year: Optional[int] = None
     publication_date: Optional[str] = None
-    type: Optional[str] = None
+    type_: Optional[str] = Field(default=None, alias="type")
     language: Optional[str] = None
     cited_by_count: Optional[int] = None
     is_retracted: Optional[bool] = None
