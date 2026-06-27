@@ -1,0 +1,1067 @@
+{
+  "id": "https://openalex.org/W3215405033",
+  "doi": "https://doi.org/10.1016/j.cogsys.2021.11.001",
+  "title": "What is it like to trust a rock? A functionalist perspective on trust and trustworthiness in artificial intelligence",
+  "display_name": "What is it like to trust a rock? A functionalist perspective on trust and trustworthiness in artificial intelligence",
+  "publication_year": 2021,
+  "publication_date": "2021-11-27",
+  "ids": {
+    "openalex": "https://openalex.org/W3215405033",
+    "doi": "https://doi.org/10.1016/j.cogsys.2021.11.001",
+    "mag": "3215405033"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.cogsys.2021.11.001",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.cogsys.2021.11.001",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S96254641",
+      "display_name": "Cognitive Systems Research",
+      "issn_l": "1389-0417",
+      "issn": [
+        "1389-0417",
+        "2214-4366"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Cognitive Systems Research",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.1016/j.cogsys.2021.11.001",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5045599982",
+        "display_name": "Peter R. Lewis",
+        "orcid": "https://orcid.org/0000-0003-4271-8611"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39470171",
+          "display_name": "Ontario Tech University",
+          "ror": "https://ror.org/016zre027",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39470171"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Peter R. Lewis",
+      "raw_affiliation_strings": [
+        "Ontario Tech University, Oshawa, ON, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ontario Tech University, Oshawa, ON, Canada",
+          "institution_ids": [
+            "https://openalex.org/I39470171"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5029727898",
+        "display_name": "Stephen Marsh",
+        "orcid": "https://orcid.org/0000-0002-1354-8505"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39470171",
+          "display_name": "Ontario Tech University",
+          "ror": "https://ror.org/016zre027",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39470171"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephen Marsh",
+      "raw_affiliation_strings": [
+        "Ontario Tech University, Oshawa, ON, Canada"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1354-8505",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ontario Tech University, Oshawa, ON, Canada",
+          "institution_ids": [
+            "https://openalex.org/I39470171"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5045599982"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I39470171"
+  ],
+  "apc_list": {
+    "value": 2770,
+    "currency": "USD",
+    "value_usd": 2770
+  },
+  "apc_paid": {
+    "value": 2770,
+    "currency": "USD",
+    "value_usd": 2770
+  },
+  "fwci": 7.4572,
+  "has_fulltext": false,
+  "cited_by_count": 70,
+  "citation_normalized_percentile": {
+    "value": 0.97660835,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "72",
+    "issue": null,
+    "first_page": "33",
+    "last_page": "49"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13471",
+    "display_name": "Cognitive Functions and Memory",
+    "score": 0.990499973297119,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3205",
+      "display_name": "Experimental and Cognitive Psychology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/32",
+      "display_name": "Psychology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13471",
+      "display_name": "Cognitive Functions and Memory",
+      "score": 0.990499973297119,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10883",
+      "display_name": "Ethics and Social Impacts of AI",
+      "score": 0.986699998378754,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3311",
+        "display_name": "Safety Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11010",
+      "display_name": "Logic, Reasoning, and Knowledge",
+      "score": 0.944500029087067,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/trustworthiness",
+      "display_name": "Trustworthiness",
+      "score": 0.810363411903381
+    },
+    {
+      "id": "https://openalex.org/keywords/perspective",
+      "display_name": "Perspective (graphical)",
+      "score": 0.726180672645569
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.567820072174072
+    },
+    {
+      "id": "https://openalex.org/keywords/point",
+      "display_name": "Point (geometry)",
+      "score": 0.513737797737122
+    },
+    {
+      "id": "https://openalex.org/keywords/heuristic",
+      "display_name": "Heuristic",
+      "score": 0.454534113407135
+    },
+    {
+      "id": "https://openalex.org/keywords/epistemology",
+      "display_name": "Epistemology",
+      "score": 0.403177827596664
+    },
+    {
+      "id": "https://openalex.org/keywords/psychology",
+      "display_name": "Psychology",
+      "score": 0.38546097278595
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.331104755401611
+    },
+    {
+      "id": "https://openalex.org/keywords/internet-privacy",
+      "display_name": "Internet privacy",
+      "score": 0.2305788397789
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C153701036",
+      "wikidata": "https://www.wikidata.org/wiki/Q659974",
+      "display_name": "Trustworthiness",
+      "level": 2,
+      "score": 0.810363411903381
+    },
+    {
+      "id": "https://openalex.org/C12713177",
+      "wikidata": "https://www.wikidata.org/wiki/Q1900281",
+      "display_name": "Perspective (graphical)",
+      "level": 2,
+      "score": 0.726180672645569
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.567820072174072
+    },
+    {
+      "id": "https://openalex.org/C28719098",
+      "wikidata": "https://www.wikidata.org/wiki/Q44946",
+      "display_name": "Point (geometry)",
+      "level": 2,
+      "score": 0.513737797737122
+    },
+    {
+      "id": "https://openalex.org/C173801870",
+      "wikidata": "https://www.wikidata.org/wiki/Q201413",
+      "display_name": "Heuristic",
+      "level": 2,
+      "score": 0.454534113407135
+    },
+    {
+      "id": "https://openalex.org/C111472728",
+      "wikidata": "https://www.wikidata.org/wiki/Q9471",
+      "display_name": "Epistemology",
+      "level": 1,
+      "score": 0.403177827596664
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.38546097278595
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.331104755401611
+    },
+    {
+      "id": "https://openalex.org/C108827166",
+      "wikidata": "https://www.wikidata.org/wiki/Q175975",
+      "display_name": "Internet privacy",
+      "level": 1,
+      "score": 0.2305788397789
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.cogsys.2021.11.001",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.cogsys.2021.11.001",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S96254641",
+        "display_name": "Cognitive Systems Research",
+        "issn_l": "1389-0417",
+        "issn": [
+          "1389-0417",
+          "2214-4366"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Cognitive Systems Research",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1016/j.cogsys.2021.11.001",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.cogsys.2021.11.001",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S96254641",
+      "display_name": "Cognitive Systems Research",
+      "issn_l": "1389-0417",
+      "issn": [
+        "1389-0417",
+        "2214-4366"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Cognitive Systems Research",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Peace, Justice and strong institutions",
+      "id": "https://metadata.un.org/sdg/16",
+      "score": 0.639999985694885
+    }
+  ],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320334593",
+      "display_name": "Natural Sciences and Engineering Research Council of Canada",
+      "ror": "https://ror.org/01h531d29"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 98,
+  "referenced_works": [
+    "https://openalex.org/W19722951",
+    "https://openalex.org/W65844413",
+    "https://openalex.org/W109605850",
+    "https://openalex.org/W652715896",
+    "https://openalex.org/W1553517776",
+    "https://openalex.org/W1555412906",
+    "https://openalex.org/W1568365766",
+    "https://openalex.org/W1584261748",
+    "https://openalex.org/W1648383461",
+    "https://openalex.org/W1833090007",
+    "https://openalex.org/W1841352775",
+    "https://openalex.org/W1862398452",
+    "https://openalex.org/W1970514670",
+    "https://openalex.org/W1989784208",
+    "https://openalex.org/W1999327572",
+    "https://openalex.org/W2016002482",
+    "https://openalex.org/W2018280750",
+    "https://openalex.org/W2022240709",
+    "https://openalex.org/W2032426551",
+    "https://openalex.org/W2033671596",
+    "https://openalex.org/W2034225360",
+    "https://openalex.org/W2058583438",
+    "https://openalex.org/W2067243719",
+    "https://openalex.org/W2072267104",
+    "https://openalex.org/W2074566832",
+    "https://openalex.org/W2080593426",
+    "https://openalex.org/W2090740586",
+    "https://openalex.org/W2092192102",
+    "https://openalex.org/W2092508688",
+    "https://openalex.org/W2094271392",
+    "https://openalex.org/W2098736677",
+    "https://openalex.org/W2100107987",
+    "https://openalex.org/W2102479365",
+    "https://openalex.org/W2107017249",
+    "https://openalex.org/W2114164329",
+    "https://openalex.org/W2115402299",
+    "https://openalex.org/W2118598655",
+    "https://openalex.org/W2122039232",
+    "https://openalex.org/W2132387635",
+    "https://openalex.org/W2142175015",
+    "https://openalex.org/W2143023917",
+    "https://openalex.org/W2145071552",
+    "https://openalex.org/W2147999522",
+    "https://openalex.org/W2151408086",
+    "https://openalex.org/W2166011785",
+    "https://openalex.org/W2188807300",
+    "https://openalex.org/W2255472491",
+    "https://openalex.org/W2258011744",
+    "https://openalex.org/W2316231696",
+    "https://openalex.org/W2410721936",
+    "https://openalex.org/W2438681906",
+    "https://openalex.org/W2464220347",
+    "https://openalex.org/W2512364572",
+    "https://openalex.org/W2602856279",
+    "https://openalex.org/W2788481061",
+    "https://openalex.org/W2795732852",
+    "https://openalex.org/W2799121301",
+    "https://openalex.org/W2810066329",
+    "https://openalex.org/W2871950322",
+    "https://openalex.org/W2897178686",
+    "https://openalex.org/W2899043600",
+    "https://openalex.org/W2904767181",
+    "https://openalex.org/W2943318415",
+    "https://openalex.org/W2950602864",
+    "https://openalex.org/W2951501516",
+    "https://openalex.org/W2973813156",
+    "https://openalex.org/W2990468501",
+    "https://openalex.org/W3003472476",
+    "https://openalex.org/W3005019340",
+    "https://openalex.org/W3013925760",
+    "https://openalex.org/W3033094275",
+    "https://openalex.org/W3215160418",
+    "https://openalex.org/W3217525002",
+    "https://openalex.org/W4231419785",
+    "https://openalex.org/W4233725725",
+    "https://openalex.org/W4247214827",
+    "https://openalex.org/W4248588746",
+    "https://openalex.org/W4252582630",
+    "https://openalex.org/W4255221555",
+    "https://openalex.org/W6600854491",
+    "https://openalex.org/W6602709176",
+    "https://openalex.org/W6638944184",
+    "https://openalex.org/W6639537751",
+    "https://openalex.org/W6647495532",
+    "https://openalex.org/W6654705028",
+    "https://openalex.org/W6669203917",
+    "https://openalex.org/W6677097056",
+    "https://openalex.org/W6677813925",
+    "https://openalex.org/W6681292532",
+    "https://openalex.org/W6715233765",
+    "https://openalex.org/W6726258750",
+    "https://openalex.org/W6728897251",
+    "https://openalex.org/W6748382702",
+    "https://openalex.org/W6752712784",
+    "https://openalex.org/W6755714480",
+    "https://openalex.org/W6761472891",
+    "https://openalex.org/W6768445837",
+    "https://openalex.org/W6768456732"
+  ],
+  "related_works": [
+    "https://openalex.org/W90316445",
+    "https://openalex.org/W2149537132",
+    "https://openalex.org/W2361278909",
+    "https://openalex.org/W2352536444",
+    "https://openalex.org/W2349982312",
+    "https://openalex.org/W2388605575",
+    "https://openalex.org/W3034765317",
+    "https://openalex.org/W2369577326",
+    "https://openalex.org/W2335190812",
+    "https://openalex.org/W4214937936"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "trustworthiness": [
+      1
+    ],
+    "(or": [
+      2
+    ],
+    "otherwise)": [
+      3
+    ],
+    "of": [
+      4,
+      11,
+      16,
+      20,
+      98,
+      117,
+      140,
+      145,
+      153
+    ],
+    "AI": [
+      5,
+      36,
+      38,
+      124
+    ],
+    "has": [
+      6
+    ],
+    "been": [
+      7
+    ],
+    "much": [
+      8
+    ],
+    "in": [
+      9,
+      95,
+      123,
+      131,
+      156,
+      182,
+      195
+    ],
+    "discussion": [
+      10
+    ],
+    "late,": [
+      12
+    ],
+    "not": [
+      13,
+      40,
+      55
+    ],
+    "least": [
+      14
+    ],
+    "because": [
+      15
+    ],
+    "the": [
+      17,
+      21,
+      60,
+      103,
+      151,
+      154
+    ],
+    "recent": [
+      18
+    ],
+    "publication": [
+      19
+    ],
+    "EU": [
+      22
+    ],
+    "Guidelines": [
+      23
+    ],
+    "for": [
+      24,
+      128
+    ],
+    "Trustworthy": [
+      25
+    ],
+    "AI.": [
+      26,
+      206
+    ],
+    "Discussions": [
+      27
+    ],
+    "range": [
+      28,
+      97
+    ],
+    "from": [
+      29
+    ],
+    "how": [
+      30,
+      106,
+      118,
+      187
+    ],
+    "we": [
+      31,
+      51,
+      78,
+      100
+    ],
+    "might": [
+      32,
+      120
+    ],
+    "make": [
+      33,
+      108,
+      201
+    ],
+    "people": [
+      34,
+      65,
+      119,
+      190,
+      199
+    ],
+    "trust": [
+      35,
+      85,
+      109,
+      122,
+      146,
+      162,
+      192,
+      203
+    ],
+    "to": [
+      37,
+      42,
+      111,
+      149,
+      178,
+      200
+    ],
+    "being": [
+      39
+    ],
+    "possible": [
+      41
+    ],
+    "trust,": [
+      43
+    ],
+    "with": [
+      44,
+      165
+    ],
+    "many": [
+      45
+    ],
+    "points": [
+      46
+    ],
+    "inbetween.": [
+      47
+    ],
+    "In": [
+      48
+    ],
+    "this": [
+      49,
+      171
+    ],
+    "article,": [
+      50
+    ],
+    "question": [
+      52
+    ],
+    "whether": [
+      53
+    ],
+    "or": [
+      54
+    ],
+    "these": [
+      56
+    ],
+    "discussions": [
+      57
+    ],
+    "somewhat": [
+      58
+    ],
+    "miss": [
+      59
+    ],
+    "point,": [
+      61
+    ],
+    "which": [
+      62,
+      177
+    ],
+    "is": [
+      63,
+      86,
+      90,
+      169
+    ],
+    "that": [
+      64,
+      77,
+      84,
+      89,
+      170,
+      185
+    ],
+    "are": [
+      66
+    ],
+    "going": [
+      67
+    ],
+    "ahead": [
+      68
+    ],
+    "and": [
+      69,
+      76,
+      143,
+      147,
+      188,
+      194
+    ],
+    "basically": [
+      70
+    ],
+    "doing": [
+      71,
+      196
+    ],
+    "their": [
+      72
+    ],
+    "own": [
+      73
+    ],
+    "thing": [
+      74
+    ],
+    "anyway,": [
+      75
+    ],
+    "should": [
+      79
+    ],
+    "probably": [
+      80
+    ],
+    "help": [
+      81
+    ],
+    "them.": [
+      82
+    ],
+    "Acknowledging": [
+      83
+    ],
+    "a": [
+      87,
+      96,
+      114,
+      132,
+      138,
+      158,
+      173,
+      183
+    ],
+    "heuristic": [
+      88
+    ],
+    "widely": [
+      91
+    ],
+    "used": [
+      92
+    ],
+    "by": [
+      93
+    ],
+    "humans": [
+      94,
+      107
+    ],
+    "situations,": [
+      99
+    ],
+    "lean": [
+      101
+    ],
+    "on": [
+      102,
+      161
+    ],
+    "literature": [
+      104
+    ],
+    "concerning": [
+      105
+    ],
+    "decisions,": [
+      110,
+      163
+    ],
+    "arrive": [
+      112
+    ],
+    "at": [
+      113
+    ],
+    "general": [
+      115
+    ],
+    "model": [
+      116,
+      155
+    ],
+    "consider": [
+      121
+    ],
+    "(and": [
+      125
+    ],
+    "other": [
+      126
+    ],
+    "artefacts)": [
+      127
+    ],
+    "specific": [
+      129
+    ],
+    "purposes": [
+      130
+    ],
+    "human": [
+      133
+    ],
+    "world.": [
+      134
+    ],
+    "We": [
+      135
+    ],
+    "then": [
+      136
+    ],
+    "use": [
+      137,
+      152
+    ],
+    "series": [
+      139
+    ],
+    "thought": [
+      141
+    ],
+    "experiments": [
+      142
+    ],
+    "observations": [
+      144
+    ],
+    "trustworthiness,": [
+      148
+    ],
+    "illustrate": [
+      150
+    ],
+    "taking": [
+      157
+    ],
+    "functionalist": [
+      159
+    ],
+    "perspective": [
+      160
+    ],
+    "including": [
+      164
+    ],
+    "machines.": [
+      166
+    ],
+    "Our": [
+      167
+    ],
+    "hope": [
+      168
+    ],
+    "forms": [
+      172
+    ],
+    "useful": [
+      174
+    ],
+    "basis": [
+      175
+    ],
+    "upon": [
+      176
+    ],
+    "develop": [
+      179
+    ],
+    "intelligent": [
+      180
+    ],
+    "systems": [
+      181
+    ],
+    "way": [
+      184
+    ],
+    "considers": [
+      186
+    ],
+    "when": [
+      189
+    ],
+    "may": [
+      191
+    ],
+    "them,": [
+      193
+    ],
+    "so": [
+      197
+    ],
+    "empowers": [
+      198
+    ],
+    "better": [
+      202
+    ],
+    "decisions": [
+      204
+    ],
+    "about": [
+      205
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-05-19T08:33:51.333923",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1268 @@
+{
+  "id": "https://openalex.org/W3035608373",
+  "doi": "https://doi.org/10.1016/j.patter.2020.100039",
+  "title": "Thinking about Trust: People, Process, and Place",
+  "display_name": "Thinking about Trust: People, Process, and Place",
+  "publication_year": 2020,
+  "publication_date": "2020-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W3035608373",
+    "doi": "https://doi.org/10.1016/j.patter.2020.100039",
+    "mag": "3035608373",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/33205107"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.patter.2020.100039",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.patter.2020.100039",
+    "pdf_url": "http://www.cell.com/article/S2666389920300441/pdf",
+    "source": {
+      "id": "https://openalex.org/S4210198061",
+      "display_name": "Patterns",
+      "issn_l": "2666-3899",
+      "issn": [
+        "2666-3899"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Patterns",
+    "raw_type": "journal-article"
+  },
+  "type": "review",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "http://www.cell.com/article/S2666389920300441/pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5029727898",
+        "display_name": "Stephen Marsh",
+        "orcid": "https://orcid.org/0000-0002-1354-8505"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39470171",
+          "display_name": "Ontario Tech University",
+          "ror": "https://ror.org/016zre027",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39470171"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Stephen Marsh",
+      "raw_affiliation_strings": [
+        "Faculty of Business and IT, Ontario Tech University, Oshawa, ON L1G 0C5, Canada"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1354-8505",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Business and IT, Ontario Tech University, Oshawa, ON L1G 0C5, Canada",
+          "institution_ids": [
+            "https://openalex.org/I39470171"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018095232",
+        "display_name": "Tosan Atele-Williams",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39470171",
+          "display_name": "Ontario Tech University",
+          "ror": "https://ror.org/016zre027",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39470171"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tosan Atele-Williams",
+      "raw_affiliation_strings": [
+        "Faculty of Business and IT, Ontario Tech University, Oshawa, ON L1G 0C5, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Business and IT, Ontario Tech University, Oshawa, ON L1G 0C5, Canada",
+          "institution_ids": [
+            "https://openalex.org/I39470171"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043883509",
+        "display_name": "Anirban Basu",
+        "orcid": "https://orcid.org/0000-0001-5438-0959"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I162608824",
+          "display_name": "University of Sussex",
+          "ror": "https://ror.org/00ayhx656",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162608824"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anirban Basu",
+      "raw_affiliation_strings": [
+        "Foundations of Software Systems Group, Department of Informatics, University of Sussex, Falmer, Brighton, East Sussex BN1 9QJ, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Foundations of Software Systems Group, Department of Informatics, University of Sussex, Falmer, Brighton, East Sussex BN1 9QJ, UK",
+          "institution_ids": [
+            "https://openalex.org/I162608824"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053800242",
+        "display_name": "Natasha Dwyer",
+        "orcid": "https://orcid.org/0000-0002-0393-9836"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I71270174",
+          "display_name": "Victoria University",
+          "ror": "https://ror.org/04j757h98",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I71270174"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Natasha Dwyer",
+      "raw_affiliation_strings": [
+        "College of Arts and Education, Victoria University, PO Box 14428, Melbourne, VIC 8001, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "College of Arts and Education, Victoria University, PO Box 14428, Melbourne, VIC 8001, Australia",
+          "institution_ids": [
+            "https://openalex.org/I71270174"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045599982",
+        "display_name": "Peter R. Lewis",
+        "orcid": "https://orcid.org/0000-0003-4271-8611"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I169199633",
+          "display_name": "Aston University",
+          "ror": "https://ror.org/05j0ve876",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I169199633"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter R. Lewis",
+      "raw_affiliation_strings": [
+        "Aston Lab for Intelligent Collectives Engineering (ALICE), Department of Computer Science, Aston University, Birmingham B4 7ET, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Aston Lab for Intelligent Collectives Engineering (ALICE), Department of Computer Science, Aston University, Birmingham B4 7ET, UK",
+          "institution_ids": [
+            "https://openalex.org/I169199633"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006538416",
+        "display_name": "Hector Miller-Bakewell",
+        "orcid": "https://orcid.org/0000-0002-2741-6714"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hector Miller-Bakewell",
+      "raw_affiliation_strings": [
+        "Department of Computer Science, University of Oxford, Wolfsson Building, Parks Road, Oxford OX1 3QD, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computer Science, University of Oxford, Wolfsson Building, Parks Road, Oxford OX1 3QD, UK",
+          "institution_ids": [
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5068240751",
+        "display_name": "Jeremy Pitt",
+        "orcid": "https://orcid.org/0000-0003-4312-8904"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I47508984",
+          "display_name": "Imperial College London",
+          "ror": "https://ror.org/041kmwe10",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I47508984"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeremy Pitt",
+      "raw_affiliation_strings": [
+        "Department of Electrical and Electronic Engineering, Imperial College London, London SW7 2BT, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Electrical and Electronic Engineering, Imperial College London, London SW7 2BT, UK",
+          "institution_ids": [
+            "https://openalex.org/I47508984"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5029727898"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I39470171"
+  ],
+  "apc_list": {
+    "value": 5200,
+    "currency": "USD",
+    "value_usd": 5200
+  },
+  "apc_paid": {
+    "value": 5200,
+    "currency": "USD",
+    "value_usd": 5200
+  },
+  "fwci": 6.2408,
+  "has_fulltext": true,
+  "cited_by_count": 24,
+  "citation_normalized_percentile": {
+    "value": 0.96469098,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": "3",
+    "first_page": "100039",
+    "last_page": "100039"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10927",
+    "display_name": "Access Control and Trust",
+    "score": 0.999000012874603,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3312",
+      "display_name": "Sociology and Political Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10927",
+      "display_name": "Access Control and Trust",
+      "score": 0.999000012874603,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11010",
+      "display_name": "Logic, Reasoning, and Knowledge",
+      "score": 0.990100026130676,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.987299978733063,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/web-of-trust",
+      "display_name": "Web of trust",
+      "score": 0.671358823776245
+    },
+    {
+      "id": "https://openalex.org/keywords/express-trust",
+      "display_name": "Express trust",
+      "score": 0.667539119720459
+    },
+    {
+      "id": "https://openalex.org/keywords/computational-trust",
+      "display_name": "Computational trust",
+      "score": 0.660886824131012
+    },
+    {
+      "id": "https://openalex.org/keywords/phenomenon",
+      "display_name": "Phenomenon",
+      "score": 0.61007696390152
+    },
+    {
+      "id": "https://openalex.org/keywords/empowerment",
+      "display_name": "Empowerment",
+      "score": 0.564342796802521
+    },
+    {
+      "id": "https://openalex.org/keywords/process",
+      "display_name": "Process (computing)",
+      "score": 0.560673415660858
+    },
+    {
+      "id": "https://openalex.org/keywords/trust-anchor",
+      "display_name": "Trust anchor",
+      "score": 0.535666346549988
+    },
+    {
+      "id": "https://openalex.org/keywords/blind-trust",
+      "display_name": "Blind trust",
+      "score": 0.516760051250458
+    },
+    {
+      "id": "https://openalex.org/keywords/enforcement",
+      "display_name": "Enforcement",
+      "score": 0.498243570327759
+    },
+    {
+      "id": "https://openalex.org/keywords/business",
+      "display_name": "Business",
+      "score": 0.451462537050247
+    },
+    {
+      "id": "https://openalex.org/keywords/psychology",
+      "display_name": "Psychology",
+      "score": 0.433480441570282
+    },
+    {
+      "id": "https://openalex.org/keywords/knowledge-management",
+      "display_name": "Knowledge management",
+      "score": 0.3885797560215
+    },
+    {
+      "id": "https://openalex.org/keywords/public-relations",
+      "display_name": "Public relations",
+      "score": 0.379580736160278
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.36965948343277
+    },
+    {
+      "id": "https://openalex.org/keywords/social-psychology",
+      "display_name": "Social psychology",
+      "score": 0.354581266641617
+    },
+    {
+      "id": "https://openalex.org/keywords/sociology",
+      "display_name": "Sociology",
+      "score": 0.353367626667023
+    },
+    {
+      "id": "https://openalex.org/keywords/internet-privacy",
+      "display_name": "Internet privacy",
+      "score": 0.334471613168716
+    },
+    {
+      "id": "https://openalex.org/keywords/epistemology",
+      "display_name": "Epistemology",
+      "score": 0.27492094039917
+    },
+    {
+      "id": "https://openalex.org/keywords/political-science",
+      "display_name": "Political science",
+      "score": 0.266088426113129
+    },
+    {
+      "id": "https://openalex.org/keywords/law",
+      "display_name": "Law",
+      "score": 0.114200353622437
+    },
+    {
+      "id": "https://openalex.org/keywords/social-science",
+      "display_name": "Social science",
+      "score": 0.0846231281757355
+    },
+    {
+      "id": "https://openalex.org/keywords/reputation",
+      "display_name": "Reputation",
+      "score": 0.0658157467842102
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C157424077",
+      "wikidata": "https://www.wikidata.org/wiki/Q1928707",
+      "display_name": "Web of trust",
+      "level": 4,
+      "score": 0.671358823776245
+    },
+    {
+      "id": "https://openalex.org/C76144217",
+      "wikidata": "https://www.wikidata.org/wiki/Q5421695",
+      "display_name": "Express trust",
+      "level": 2,
+      "score": 0.667539119720459
+    },
+    {
+      "id": "https://openalex.org/C160521178",
+      "wikidata": "https://www.wikidata.org/wiki/Q5157345",
+      "display_name": "Computational trust",
+      "level": 3,
+      "score": 0.660886824131012
+    },
+    {
+      "id": "https://openalex.org/C50335755",
+      "wikidata": "https://www.wikidata.org/wiki/Q483247",
+      "display_name": "Phenomenon",
+      "level": 2,
+      "score": 0.61007696390152
+    },
+    {
+      "id": "https://openalex.org/C20555606",
+      "wikidata": "https://www.wikidata.org/wiki/Q868575",
+      "display_name": "Empowerment",
+      "level": 2,
+      "score": 0.564342796802521
+    },
+    {
+      "id": "https://openalex.org/C98045186",
+      "wikidata": "https://www.wikidata.org/wiki/Q205663",
+      "display_name": "Process (computing)",
+      "level": 2,
+      "score": 0.560673415660858
+    },
+    {
+      "id": "https://openalex.org/C154800190",
+      "wikidata": "https://www.wikidata.org/wiki/Q16941470",
+      "display_name": "Trust anchor",
+      "level": 4,
+      "score": 0.535666346549988
+    },
+    {
+      "id": "https://openalex.org/C31829608",
+      "wikidata": "https://www.wikidata.org/wiki/Q884177",
+      "display_name": "Blind trust",
+      "level": 2,
+      "score": 0.516760051250458
+    },
+    {
+      "id": "https://openalex.org/C2779777834",
+      "wikidata": "https://www.wikidata.org/wiki/Q4202277",
+      "display_name": "Enforcement",
+      "level": 2,
+      "score": 0.498243570327759
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.451462537050247
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.433480441570282
+    },
+    {
+      "id": "https://openalex.org/C56739046",
+      "wikidata": "https://www.wikidata.org/wiki/Q192060",
+      "display_name": "Knowledge management",
+      "level": 1,
+      "score": 0.3885797560215
+    },
+    {
+      "id": "https://openalex.org/C39549134",
+      "wikidata": "https://www.wikidata.org/wiki/Q133080",
+      "display_name": "Public relations",
+      "level": 1,
+      "score": 0.379580736160278
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.36965948343277
+    },
+    {
+      "id": "https://openalex.org/C77805123",
+      "wikidata": "https://www.wikidata.org/wiki/Q161272",
+      "display_name": "Social psychology",
+      "level": 1,
+      "score": 0.354581266641617
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.353367626667023
+    },
+    {
+      "id": "https://openalex.org/C108827166",
+      "wikidata": "https://www.wikidata.org/wiki/Q175975",
+      "display_name": "Internet privacy",
+      "level": 1,
+      "score": 0.334471613168716
+    },
+    {
+      "id": "https://openalex.org/C111472728",
+      "wikidata": "https://www.wikidata.org/wiki/Q9471",
+      "display_name": "Epistemology",
+      "level": 1,
+      "score": 0.27492094039917
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.266088426113129
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.114200353622437
+    },
+    {
+      "id": "https://openalex.org/C36289849",
+      "wikidata": "https://www.wikidata.org/wiki/Q34749",
+      "display_name": "Social science",
+      "level": 1,
+      "score": 0.0846231281757355
+    },
+    {
+      "id": "https://openalex.org/C48798503",
+      "wikidata": "https://www.wikidata.org/wiki/Q877546",
+      "display_name": "Reputation",
+      "level": 2,
+      "score": 0.0658157467842102
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.patter.2020.100039",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.patter.2020.100039",
+      "pdf_url": "http://www.cell.com/article/S2666389920300441/pdf",
+      "source": {
+        "id": "https://openalex.org/S4210198061",
+        "display_name": "Patterns",
+        "issn_l": "2666-3899",
+        "issn": [
+          "2666-3899"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Patterns",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:33205107",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/33205107",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Patterns (New York, N.Y.)",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:eprints.vu.edu.au:41274",
+      "is_oa": true,
+      "landing_page_url": "https://vuir.vu.edu.au/41274/",
+      "pdf_url": "https://vuir.vu.edu.au/41274/1/1-s2.0-S2666389920300441-main.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400215",
+        "display_name": "Victoria University Research Repository (Victoria University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I41156924",
+        "host_organization_name": "Victoria University of Wellington",
+        "host_organization_lineage": [
+          "https://openalex.org/I41156924"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "PeerReviewed"
+    },
+    {
+      "id": "pmh:oai:publications.aston.ac.uk:42140",
+      "is_oa": true,
+      "landing_page_url": "https://publications.aston.ac.uk/view/author/d8059955a06262ba0f3874c0e5d9abaf.html>,",
+      "pdf_url": "https://publications.aston.ac.uk/id/eprint/42140/1/1_s2.0_S2666389920300441_main.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400483",
+        "display_name": "Aston Publications Explorer (Aston University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I169199633",
+        "host_organization_name": "Aston University",
+        "host_organization_lineage": [
+          "https://openalex.org/I169199633"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "PeerReviewed"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:131da3468db04bd5b36c2e33076d06a7",
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/131da3468db04bd5b36c2e33076d06a7",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Patterns, Vol 1, Iss 3, Pp 100039- (2020)",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:7660393",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7660393",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Patterns (N Y)",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1016/j.patter.2020.100039",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.patter.2020.100039",
+    "pdf_url": "http://www.cell.com/article/S2666389920300441/pdf",
+    "source": {
+      "id": "https://openalex.org/S4210198061",
+      "display_name": "Patterns",
+      "issn_l": "2666-3899",
+      "issn": [
+        "2666-3899"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Patterns",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/16",
+      "display_name": "Peace, Justice and strong institutions",
+      "score": 0.819999992847443
+    }
+  ],
+  "awards": [
+    {
+      "id": "https://openalex.org/G2771256007",
+      "display_name": null,
+      "funder_award_id": "RGPIN/005897-2018",
+      "funder_id": "https://openalex.org/F4320334593",
+      "funder_display_name": "Natural Sciences and Engineering Research Council of Canada"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320334593",
+      "display_name": "Natural Sciences and Engineering Research Council of Canada",
+      "ror": "https://ror.org/01h531d29"
+    }
+  ],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": false
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W3035608373.pdf"
+  },
+  "referenced_works_count": 70,
+  "referenced_works": [
+    "https://openalex.org/W109605850",
+    "https://openalex.org/W151055159",
+    "https://openalex.org/W576923897",
+    "https://openalex.org/W578816084",
+    "https://openalex.org/W1542305406",
+    "https://openalex.org/W1560889174",
+    "https://openalex.org/W1599581242",
+    "https://openalex.org/W1604494848",
+    "https://openalex.org/W1630773056",
+    "https://openalex.org/W1762468477",
+    "https://openalex.org/W1875351242",
+    "https://openalex.org/W1885427160",
+    "https://openalex.org/W1935297443",
+    "https://openalex.org/W2023116690",
+    "https://openalex.org/W2023386424",
+    "https://openalex.org/W2029907134",
+    "https://openalex.org/W2034235631",
+    "https://openalex.org/W2050067204",
+    "https://openalex.org/W2063303425",
+    "https://openalex.org/W2066636486",
+    "https://openalex.org/W2073172537",
+    "https://openalex.org/W2080326542",
+    "https://openalex.org/W2082085569",
+    "https://openalex.org/W2090892192",
+    "https://openalex.org/W2097726984",
+    "https://openalex.org/W2100107987",
+    "https://openalex.org/W2103094214",
+    "https://openalex.org/W2112935754",
+    "https://openalex.org/W2122516858",
+    "https://openalex.org/W2164725579",
+    "https://openalex.org/W2228027693",
+    "https://openalex.org/W2297150823",
+    "https://openalex.org/W2316231696",
+    "https://openalex.org/W2323274835",
+    "https://openalex.org/W2476613166",
+    "https://openalex.org/W2494258985",
+    "https://openalex.org/W2573811153",
+    "https://openalex.org/W2597576747",
+    "https://openalex.org/W2649135381",
+    "https://openalex.org/W2741305593",
+    "https://openalex.org/W2745338679",
+    "https://openalex.org/W2799121301",
+    "https://openalex.org/W2810964911",
+    "https://openalex.org/W2811145640",
+    "https://openalex.org/W2888126660",
+    "https://openalex.org/W2889510836",
+    "https://openalex.org/W2904767181",
+    "https://openalex.org/W2912155051",
+    "https://openalex.org/W2962606567",
+    "https://openalex.org/W2969743693",
+    "https://openalex.org/W3007619609",
+    "https://openalex.org/W3014497601",
+    "https://openalex.org/W3121661582",
+    "https://openalex.org/W3128125954",
+    "https://openalex.org/W3140827074",
+    "https://openalex.org/W4299504164",
+    "https://openalex.org/W4300080368",
+    "https://openalex.org/W6637834221",
+    "https://openalex.org/W6639537751",
+    "https://openalex.org/W6640451993",
+    "https://openalex.org/W6644438389",
+    "https://openalex.org/W6668479508",
+    "https://openalex.org/W6684022603",
+    "https://openalex.org/W6697201605",
+    "https://openalex.org/W6721091611",
+    "https://openalex.org/W6731618369",
+    "https://openalex.org/W6734678334",
+    "https://openalex.org/W6741722071",
+    "https://openalex.org/W6752880849",
+    "https://openalex.org/W6752944530"
+  ],
+  "related_works": [
+    "https://openalex.org/W2810582408",
+    "https://openalex.org/W4385687966",
+    "https://openalex.org/W2971973541",
+    "https://openalex.org/W2587062340",
+    "https://openalex.org/W2136092929",
+    "https://openalex.org/W2070228923",
+    "https://openalex.org/W1579892909",
+    "https://openalex.org/W2547460908",
+    "https://openalex.org/W2101340738",
+    "https://openalex.org/W3035608373"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "brief": [
+      1
+    ],
+    "paper": [
+      2
+    ],
+    "is": [
+      3,
+      35,
+      82
+    ],
+    "about": [
+      4
+    ],
+    "trust.": [
+      5
+    ],
+    "It": [
+      6,
+      57
+    ],
+    "explores": [
+      7,
+      58
+    ],
+    "the": [
+      8,
+      14,
+      53,
+      69,
+      78
+    ],
+    "phenomenon": [
+      9
+    ],
+    "from": [
+      10,
+      42
+    ],
+    "various": [
+      11
+    ],
+    "angles,": [
+      12
+    ],
+    "with": [
+      13,
+      49
+    ],
+    "implicit": [
+      15
+    ],
+    "assumptions": [
+      16
+    ],
+    "that": [
+      17,
+      25,
+      33
+    ],
+    "trust": [
+      18,
+      26,
+      34,
+      59,
+      62,
+      67,
+      72,
+      81
+    ],
+    "can": [
+      19,
+      27
+    ],
+    "be": [
+      20,
+      28
+    ],
+    "measured": [
+      21
+    ],
+    "in": [
+      22
+    ],
+    "some": [
+      23
+    ],
+    "ways,": [
+      24
+    ],
+    "compared": [
+      29
+    ],
+    "and": [
+      30,
+      32,
+      61,
+      77
+    ],
+    "rated,": [
+      31
+    ],
+    "of": [
+      36,
+      71,
+      75,
+      83
+    ],
+    "worth": [
+      37
+    ],
+    "when": [
+      38
+    ],
+    "we": [
+      39
+    ],
+    "consider": [
+      40
+    ],
+    "entities": [
+      41
+    ],
+    "data,": [
+      43
+    ],
+    "through": [
+      44
+    ],
+    "artificial": [
+      45
+    ],
+    "intelligences,": [
+      46
+    ],
+    "to": [
+      47,
+      55,
+      66
+    ],
+    "humans,": [
+      48
+    ],
+    "side": [
+      50
+    ],
+    "trips": [
+      51
+    ],
+    "along": [
+      52
+    ],
+    "way": [
+      54
+    ],
+    "animals.": [
+      56
+    ],
+    "systems": [
+      60
+    ],
+    "empowerment": [
+      63
+    ],
+    "as": [
+      64
+    ],
+    "opposed": [
+      65
+    ],
+    "enforcement,": [
+      68
+    ],
+    "creation": [
+      70
+    ],
+    "models,": [
+      73
+    ],
+    "applications": [
+      74
+    ],
+    "trust,": [
+      76
+    ],
+    "reasons": [
+      79
+    ],
+    "why": [
+      80
+    ],
+    "worth.": [
+      84
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-05-22T06:13:13.366637",
+  "created_date": "2025-10-10T00:00:00"
+}
