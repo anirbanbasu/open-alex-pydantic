@@ -1,6 +1,6 @@
 <!--
 Sync Impact Report
-- Version change: 2.0.0 -> 2.0.0
+- Version change: 2.0.0 -> 1.0.0
 - Modified principles:
 	- None
 - Added sections:
@@ -104,4 +104,4 @@ Versioning policy:
 Compliance review is required during planning, task generation, code review, and
 release preparation.
 
-**Version**: 2.0.0 | **Ratified**: 2026-06-28 | **Last Amended**: 2026-06-28
+**Version**: 1.0.0 | **Ratified**: 2026-06-28 | **Last Amended**: 2026-06-28
