@@ -95,7 +95,7 @@ Examples of foundational tasks (adjust based on your project):
 - [ ] T015 [US1] Implement [Service] in src/services/[service].py (depends on T013, T014)
 - [ ] T016 [US1] Implement [endpoint/feature] in src/[location]/[file].py
 - [ ] T017 [US1] Add strict validation and domain exception mapping
-- [ ] T018 [US1] Add alias mapping behavior, including reserved/built-in name remaps
+- [ ] T018 [US1] Add native snake_case field mapping and manual reserved/built-in alias remaps only
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
 

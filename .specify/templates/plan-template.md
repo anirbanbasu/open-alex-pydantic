@@ -43,7 +43,8 @@
 - Confirm strict TDD sequencing is planned (tests written and failing before implementation).
 - Confirm coverage strategy enforces 100% coverage for all new/modified code.
 - Confirm Python 3.12+, strict type hints, and Pydantic v2 strict validation are explicit.
-- Confirm immutable model configuration and alias generation rules are specified.
+- Confirm immutable model configuration, native snake_case mapping, and
+  manual alias-only reserved-name remaps are specified.
 - Confirm validation/parsing failures are mapped to domain exceptions at public boundaries.
 
 ## Project Structure

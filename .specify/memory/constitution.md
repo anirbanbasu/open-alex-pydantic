@@ -1,15 +1,11 @@
 <!--
 Sync Impact Report
-- Version change: template-initialized -> 1.0.0
+- Version change: 1.0.0 -> 2.0.0
 - Modified principles:
-	- Principle slot 1 -> I. Test-First and 100% Delta Coverage (NON-NEGOTIABLE)
-	- Principle slot 2 -> II. Strict Typing and Validation Contracts
-	- Principle slot 3 -> III. Immutable and Idiomatic Model Design
-	- Principle slot 4 -> IV. Defensive Parsing and Domain Error Boundaries
-	- Principle slot 5 -> V. Compatibility and Minimal Surface Area
+	- III. Immutable and Idiomatic Model Design -> III. Immutable Native-Schema Model Design
+	- IV. Defensive Parsing and Domain Error Boundaries -> IV. Defensive Parsing and Domain Exception Boundaries
 - Added sections:
-	- Technical Standards
-	- Development Workflow and Quality Gates
+	- None
 - Removed sections:
 	- None
 - Templates requiring updates:
@@ -41,16 +37,18 @@ documented in tests, and stable across releases.
 Rationale: Strong static and runtime contracts make API schema drift visible and
 prevent implicit coercions that hide upstream data quality issues.
 
-### III. Immutable and Idiomatic Model Design
-Models MUST be configured as immutable using frozen configurations and MUST
-expose idiomatic Python field names. Automated alias generation MUST map API
-camelCase properties and MUST map Python reserved or built-in names to trailing
-underscore equivalents, including at minimum id -> id_, type -> type_, and
-license -> license_.
-Rationale: Immutability reduces accidental mutation bugs, and predictable alias
-rules preserve Python ergonomics while maintaining wire-format compatibility.
+### III. Immutable Native-Schema Model Design
+Models MUST be configured as immutable using frozen model configuration.
+Model fields MUST map directly to the OpenAlex API native snake_case property
+names. Global alias generators MUST NOT be used. Manual aliases MAY be used
+only to resolve Python reserved keywords or built-in conflicts and MUST map to
+trailing-underscore equivalents, including at minimum id -> id_, type -> type_,
+and license -> license_.
+Rationale: Native schema mapping minimizes translation complexity and keeps
+payload semantics explicit while preserving idiomatic Python naming only where
+language rules require exceptions.
 
-### IV. Defensive Parsing and Domain Error Boundaries
+### IV. Defensive Parsing and Domain Exception Boundaries
 Models MUST tolerate unexpected payload fields without breaking parsing unless a
 schema rule explicitly forbids them. Parsing and validation failures MUST be
 mapped to project-defined domain exceptions; raw third-party validation errors
@@ -72,8 +70,10 @@ long-lived clients and notebooks.
 - Pydantic MUST be version 2.x, and model validation MUST be configured for
 	strict behavior by default.
 - Model configuration MUST enforce immutability via frozen settings.
-- Alias generation MUST support camelCase API keys and keyword/built-in remaps
-	to trailing underscores.
+- Models MUST use native snake_case API field names directly with no global
+	alias generators.
+- Manual aliases MUST be limited to keyword/built-in conflict remaps to
+	trailing underscores (at minimum id_, type_, license_).
 - Parsing entry points MUST normalize validation failures into custom domain
 	exceptions exposed by this package.
 
@@ -81,8 +81,9 @@ long-lived clients and notebooks.
 
 1. Tests are authored first and MUST fail before implementation begins.
 2. Each pull request MUST prove 100% coverage for all new and modified code.
-3. Each pull request MUST include tests for alias behavior, strict validation,
-	immutability, and domain exception mapping when affected.
+3. Each pull request MUST include tests for strict validation, immutability,
+	native snake_case field mapping, reserved-name manual aliases, and domain
+	exception mapping when affected.
 4. Code review MUST reject changes that bypass domain exceptions or weaken type
 	and validation guarantees.
 5. Release notes MUST call out any contract-impacting changes.
@@ -104,4 +105,4 @@ Versioning policy:
 Compliance review is required during planning, task generation, code review, and
 release preparation.
 
-**Version**: 1.0.0 | **Ratified**: 2026-06-28 | **Last Amended**: 2026-06-28
+**Version**: 2.0.0 | **Ratified**: 2026-06-28 | **Last Amended**: 2026-06-28

@@ -103,8 +103,8 @@
 - **QV-001**: Feature tests MUST be authored first and demonstrated failing before implementation.
 - **QV-002**: New and modified code MUST maintain 100% test coverage.
 - **QV-003**: Python code MUST use explicit type hints compatible with Python 3.12+.
-- **QV-004**: Pydantic models MUST define strict validation behavior and immutable configuration.
-- **QV-005**: Field aliasing rules MUST include camelCase mapping and reserved/built-in remaps (e.g., id -> id_, type -> type_).
+- **QV-004**: Pydantic v2 models MUST run with strict validation enabled and immutable frozen configuration.
+- **QV-005**: Models MUST map directly to native snake_case API fields with no global alias generators; manual aliases are allowed only for reserved/built-in remaps (e.g., id -> id_, type -> type_, license -> license_).
 - **QV-006**: Public parsing interfaces MUST map validation failures to domain exceptions.
 
 ### Key Entities *(include if feature involves data)*
