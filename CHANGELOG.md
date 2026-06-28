@@ -10,10 +10,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and versi
 
 - An initialised-only Spec Kit setup with the GitHub Copilot integration.
 - A Pydantic model for the Work entity.
+- A Pydantic model for the Author entity.
 
 ### Changed
 
-- None documented yet.
+- Spec Kit integration with GitHub Copilot has now changed to Claude.
 
 ### Deprecated
 
@@ -21,7 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and versi
 
 ### Removed
 
-- None documented yet.
+- Spec Kit integration with GitHub Copilot has been removed. However, artefacts generated using Copilot are still present in the codebase.
 
 ### Fixed
 

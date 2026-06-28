@@ -10,6 +10,8 @@ Open Alex API data structures as Pydantic classes.
 
 ## Usage
 
+Don't use it unless you know what you're doing as this is a _very_ work-in-progress project!
+
 ```python
 from open_alex_pydantic.entities import WorkParsingError, parse_work
 

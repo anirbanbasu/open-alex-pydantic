@@ -1,0 +1,761 @@
+{
+  "id": "https://openalex.org/A5029727898",
+  "orcid": "https://orcid.org/0000-0002-1354-8505",
+  "display_name": "Stephen Marsh",
+  "raw_author_names": [
+    "Marsh, Stephen",
+    "S Marsh",
+    "S. Marsh",
+    "STEPHEN MARSH",
+    "Stephen Marsh"
+  ],
+  "full_name": "Marsh, Stephen",
+  "works_count": 118,
+  "cited_by_count": 2996,
+  "summary_stats": {
+    "2yr_mean_citedness": 0,
+    "h_index": 19,
+    "i10_index": 35
+  },
+  "ids": {
+    "openalex": "https://openalex.org/A5029727898",
+    "orcid": "https://orcid.org/0000-0002-1354-8505"
+  },
+  "affiliations": [
+    {
+      "institution": {
+        "id": "https://openalex.org/I12093191",
+        "ror": "https://ror.org/045wgfr59",
+        "display_name": "University of Stirling",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I12093191"
+        ]
+      },
+      "years": [
+        1995,
+        1994,
+        1992
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I1291425158",
+        "ror": "https://ror.org/00njsd438",
+        "display_name": "Google (United States)",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+          "https://openalex.org/I1291425158",
+          "https://openalex.org/I4210128969"
+        ]
+      },
+      "years": [
+        1922
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I153718931",
+        "ror": "https://ror.org/03c4mmv16",
+        "display_name": "University of Ottawa",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I153718931"
+        ]
+      },
+      "years": [
+        2014
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I166337079",
+        "ror": "https://ror.org/026zzn846",
+        "display_name": "Queen Mary University of London",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I124357947",
+          "https://openalex.org/I166337079"
+        ]
+      },
+      "years": [
+        2021
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I197604219",
+        "ror": "https://ror.org/02eq2w707",
+        "display_name": "National Academies of Sciences, Engineering, and Medicine",
+        "country_code": "US",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I197604219"
+        ]
+      },
+      "years": [
+        2013,
+        2007,
+        2005,
+        2004
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I198423848",
+        "ror": "https://ror.org/0502a2655",
+        "display_name": "National Institute for Occupational Safety and Health",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I1289490764",
+          "https://openalex.org/I1299022934",
+          "https://openalex.org/I198423848"
+        ]
+      },
+      "years": [
+        2012,
+        2005
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I202367325",
+        "ror": "https://ror.org/003sav189",
+        "display_name": "Oldenburger Institut für Informatik",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I202367325"
+        ]
+      },
+      "years": [
+        2013
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I2800032487",
+        "ror": "https://ror.org/01ep6qy98",
+        "display_name": "TransCanada (Canada)",
+        "country_code": "CA",
+        "type": "company",
+        "lineage": [
+          "https://openalex.org/I2800032487"
+        ]
+      },
+      "years": [
+        2008
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I2800993931",
+        "ror": "https://ror.org/02njpkz73",
+        "display_name": "Hull Royal Infirmary",
+        "country_code": "GB",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I2800043709",
+          "https://openalex.org/I2800993931"
+        ]
+      },
+      "years": [
+        2025
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I2801965655",
+        "ror": "https://ror.org/028mrxf52",
+        "display_name": "Wrightington, Wigan and Leigh NHS Foundation Trust",
+        "country_code": "GB",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I2801965655"
+        ]
+      },
+      "years": [
+        2021
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I39470171",
+        "ror": "https://ror.org/016zre027",
+        "display_name": "Ontario Tech University",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I39470171"
+        ]
+      },
+      "years": [
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017,
+        2016,
+        2015,
+        2014,
+        2013,
+        2012
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I4210098097",
+        "ror": "https://ror.org/00yeap462",
+        "display_name": "Research and Productivity Council",
+        "country_code": "CA",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I4210098097"
+        ]
+      },
+      "years": [
+        2006
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I4210125484",
+        "ror": "https://ror.org/031caxb92",
+        "display_name": "Kaiser Permanente West Los Angeles Medical Center",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I1343052199",
+          "https://openalex.org/I4210125484"
+        ]
+      },
+      "years": [
+        1975
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I4210151552",
+        "ror": "https://ror.org/05dybt340",
+        "display_name": "Communications Research Centre Canada",
+        "country_code": "CA",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210151552"
+        ]
+      },
+      "years": [
+        2012,
+        2011,
+        2010
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I4210159778",
+        "ror": "https://ror.org/04mte1k06",
+        "display_name": "National Research Council Canada",
+        "country_code": "CA",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I4210159778"
+        ]
+      },
+      "years": [
+        2013,
+        2009,
+        2008,
+        2007,
+        2006,
+        2005,
+        2004,
+        2003,
+        2002,
+        2000,
+        1997
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I4210160269",
+        "ror": "https://ror.org/05m3qrs33",
+        "display_name": "Ipswich Hospital",
+        "country_code": "GB",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4210101239",
+          "https://openalex.org/I4210160269"
+        ]
+      },
+      "years": [
+        2025
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I79510175",
+        "ror": "https://ror.org/03kk7td41",
+        "display_name": "Cardiff University",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I79510175"
+        ]
+      },
+      "years": [
+        2026
+      ]
+    },
+    {
+      "institution": {
+        "id": "https://openalex.org/I79620101",
+        "ror": "https://ror.org/00xcryt71",
+        "display_name": "University of Arkansas for Medical Sciences",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I79620101"
+        ]
+      },
+      "years": [
+        2012
+      ]
+    }
+  ],
+  "last_known_institutions": [
+    {
+      "id": "https://openalex.org/I79510175",
+      "ror": "https://ror.org/03kk7td41",
+      "display_name": "Cardiff University",
+      "country_code": "GB",
+      "type": "education",
+      "lineage": [
+        "https://openalex.org/I79510175"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10927",
+      "display_name": "Access Control and Trust",
+      "count": 26,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11045",
+      "display_name": "Privacy, Security, and Data Protection",
+      "count": 14,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11800",
+      "display_name": "User Authentication and Security Systems",
+      "count": 12,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12607",
+      "display_name": "Personal Information Management and User Behavior",
+      "count": 12,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1802",
+        "display_name": "Information Systems and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10803",
+      "display_name": "Innovative Human-Technology Interaction",
+      "count": 11,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1709",
+        "display_name": "Human-Computer Interaction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T10927",
+      "display_name": "Access Control and Trust",
+      "value": 0.0003797,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12607",
+      "display_name": "Personal Information Management and User Behavior",
+      "value": 0.0002275,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1802",
+        "display_name": "Information Systems and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11800",
+      "display_name": "User Authentication and Security Systems",
+      "value": 0.0001465,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10803",
+      "display_name": "Innovative Human-Technology Interaction",
+      "value": 0.000116,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1709",
+        "display_name": "Human-Computer Interaction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11045",
+      "display_name": "Privacy, Security, and Data Protection",
+      "value": 0.0001124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "x_concepts": [
+    {
+      "id": "41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "score": 0.867953419685364
+    },
+    {
+      "id": "108827166",
+      "wikidata": "https://www.wikidata.org/wiki/Q175975",
+      "display_name": "Internet privacy",
+      "score": 0.789853811264038
+    },
+    {
+      "id": "136764020",
+      "wikidata": "https://www.wikidata.org/wiki/Q466",
+      "display_name": "World Wide Web",
+      "score": 0.707817673683167
+    },
+    {
+      "id": "38652104",
+      "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+      "display_name": "Computer security",
+      "score": 0.581285893917084
+    },
+    {
+      "id": "17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "score": 0.416459172964096
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 1922,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 1975,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 27
+    },
+    {
+      "year": 1992,
+      "works_count": 4,
+      "oa_works_count": 0,
+      "cited_by_count": 12
+    },
+    {
+      "year": 1993,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 1994,
+      "works_count": 4,
+      "oa_works_count": 1,
+      "cited_by_count": 1534
+    },
+    {
+      "year": 1995,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
+      "year": 1997,
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 16
+    },
+    {
+      "year": 1999,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2000,
+      "works_count": 6,
+      "oa_works_count": 2,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2002,
+      "works_count": 7,
+      "oa_works_count": 0,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2003,
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 249
+    },
+    {
+      "year": 2004,
+      "works_count": 4,
+      "oa_works_count": 1,
+      "cited_by_count": 42
+    },
+    {
+      "year": 2005,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 236
+    },
+    {
+      "year": 2006,
+      "works_count": 3,
+      "oa_works_count": 0,
+      "cited_by_count": 128
+    },
+    {
+      "year": 2007,
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2008,
+      "works_count": 3,
+      "oa_works_count": 0,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2009,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 69
+    },
+    {
+      "year": 2010,
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2011,
+      "works_count": 8,
+      "oa_works_count": 2,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2012,
+      "works_count": 8,
+      "oa_works_count": 3,
+      "cited_by_count": 90
+    },
+    {
+      "year": 2013,
+      "works_count": 10,
+      "oa_works_count": 2,
+      "cited_by_count": 67
+    },
+    {
+      "year": 2014,
+      "works_count": 10,
+      "oa_works_count": 4,
+      "cited_by_count": 61
+    },
+    {
+      "year": 2015,
+      "works_count": 4,
+      "oa_works_count": 4,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "works_count": 7,
+      "oa_works_count": 4,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2017,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2018,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2019,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2021,
+      "works_count": 7,
+      "oa_works_count": 7,
+      "cited_by_count": 114
+    },
+    {
+      "year": 2022,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2023,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2025,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    }
+  ],
+  "display_name_alternatives": [
+    "Marsh, Stephen",
+    "S Marsh",
+    "S. Marsh",
+    "STEPHEN MARSH",
+    "Stephen Marsh"
+  ],
+  "block_key": "s marsh",
+  "works_api_url": "https://api.openalex.org/works?filter=author.id:A5029727898",
+  "updated_date": "2026-06-26T12:17:53",
+  "created_date": "2016-06-24T00:00:00"
+}
