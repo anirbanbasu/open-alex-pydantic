@@ -1,9 +1,8 @@
 <!--
 Sync Impact Report
-- Version change: 1.0.0 -> 2.0.0
+- Version change: 2.0.0 -> 2.0.0
 - Modified principles:
-	- III. Immutable and Idiomatic Model Design -> III. Immutable Native-Schema Model Design
-	- IV. Defensive Parsing and Domain Error Boundaries -> IV. Defensive Parsing and Domain Exception Boundaries
+	- None
 - Added sections:
 	- None
 - Removed sections:
