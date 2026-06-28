@@ -1,0 +1,15 @@
+{
+  "id": "https://openalex.org/W0000000000",
+  "type": "article",
+  "publication_year": "2021",
+  "ids": {
+    "openalex": "https://openalex.org/W0000000000",
+    "mag": 123456
+  },
+  "counts_by_year": [
+    {
+      "year": "2020",
+      "cited_by_count": 5
+    }
+  ]
+}

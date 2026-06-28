@@ -7,3 +7,16 @@
 # Open Alex Pydantic
 
 Open Alex API data structures as Pydantic classes.
+
+## Usage
+
+```python
+from open_alex_pydantic.entities import WorkParsingError, parse_work
+
+try:
+	work = parse_work(payload)
+except WorkParsingError as exc:
+	# Domain-level parse contract for invalid payloads.
+	print(exc)
+	print(exc.cause)
+```

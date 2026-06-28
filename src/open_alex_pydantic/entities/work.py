@@ -15,7 +15,7 @@ class WorkIds(BaseEntity):
 
     openalex: Optional[str] = None
     doi: Optional[str] = None
-    mag: Optional[int] = None
+    mag: Optional[str] = None
     pmid: Optional[str] = None
     pmcid: Optional[str] = None
 
@@ -85,6 +85,12 @@ class HasContent(BaseEntity):
     grobid_xml: Optional[bool] = None
 
 
+class ContentUrls(BaseEntity):
+    """Content URL map associated with a Work."""
+
+    pdf: Optional[str] = None
+
+
 class DehydratedSource(BaseEntity):
     """Reduced-field Source used in nested contexts (e.g. inside a Location)."""
 
@@ -104,6 +110,7 @@ class DehydratedSource(BaseEntity):
 class Location(BaseEntity):
     """A place where a Work is hosted."""
 
+    id_: Optional[str] = Field(default=None, alias="id")
     is_oa: Optional[bool] = None
     landing_page_url: Optional[str] = None
     pdf_url: Optional[str] = None
@@ -113,6 +120,8 @@ class Location(BaseEntity):
     version: Optional[str] = None
     is_accepted: Optional[bool] = None
     is_published: Optional[bool] = None
+    raw_source_name: Optional[str] = None
+    raw_type: Optional[str] = None
 
 
 class OpenAccess(BaseEntity):
@@ -235,8 +244,12 @@ class Work(BaseEntity):
     type_: Optional[str] = Field(default=None, alias="type")
     language: Optional[str] = None
     cited_by_count: Optional[int] = None
+    countries_distinct_count: Optional[int] = None
+    institutions_distinct_count: Optional[int] = None
+    has_fulltext: Optional[bool] = None
     is_retracted: Optional[bool] = None
     is_paratext: Optional[bool] = None
+    is_xpac: Optional[bool] = None
     primary_location: Optional[Location] = None
     locations: Optional[list[Location]] = None
     locations_count: Optional[int] = None
@@ -265,6 +278,7 @@ class Work(BaseEntity):
     mesh: Optional[list[MeshTag]] = None
     indexed_in: Optional[list[str]] = None
     has_content: Optional[HasContent] = None
+    content_urls: Optional[ContentUrls] = None
     content_url: Optional[str] = None
     fulltext_origin: Optional[str] = None
     best_open_version: Optional[str] = None
