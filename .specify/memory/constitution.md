@@ -1,50 +1,107 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+- Version change: template-initialized -> 1.0.0
+- Modified principles:
+	- Principle slot 1 -> I. Test-First and 100% Delta Coverage (NON-NEGOTIABLE)
+	- Principle slot 2 -> II. Strict Typing and Validation Contracts
+	- Principle slot 3 -> III. Immutable and Idiomatic Model Design
+	- Principle slot 4 -> IV. Defensive Parsing and Domain Error Boundaries
+	- Principle slot 5 -> V. Compatibility and Minimal Surface Area
+- Added sections:
+	- Technical Standards
+	- Development Workflow and Quality Gates
+- Removed sections:
+	- None
+- Templates requiring updates:
+	- ✅ .specify/templates/plan-template.md
+	- ✅ .specify/templates/spec-template.md
+	- ✅ .specify/templates/tasks-template.md
+	- ✅ .specify/templates/commands/*.md (not present in this repository; no update required)
+- Deferred TODOs:
+	- None
+-->
+
+# OpenAlex Pydantic Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Test-First and 100% Delta Coverage (NON-NEGOTIABLE)
+Every change MUST follow strict TDD: write failing tests first, implement the
+smallest code change to pass, then refactor safely. New and modified code MUST
+maintain 100% test coverage for the affected scope. No implementation work is
+complete until failing-then-passing tests prove behavior.
+Rationale: This project is a data-contract library where regressions silently
+corrupt downstream analysis if behavior is not fully specified by tests.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Strict Typing and Validation Contracts
+All production code MUST target Python 3.12+ and use explicit type hints for
+public and internal APIs. All request/response models MUST use Pydantic v2 with
+strict validation behavior enabled. Validation semantics MUST be intentional,
+documented in tests, and stable across releases.
+Rationale: Strong static and runtime contracts make API schema drift visible and
+prevent implicit coercions that hide upstream data quality issues.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Immutable and Idiomatic Model Design
+Models MUST be configured as immutable using frozen configurations and MUST
+expose idiomatic Python field names. Automated alias generation MUST map API
+camelCase properties and MUST map Python reserved or built-in names to trailing
+underscore equivalents, including at minimum id -> id_, type -> type_, and
+license -> license_.
+Rationale: Immutability reduces accidental mutation bugs, and predictable alias
+rules preserve Python ergonomics while maintaining wire-format compatibility.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Defensive Parsing and Domain Error Boundaries
+Models MUST tolerate unexpected payload fields without breaking parsing unless a
+schema rule explicitly forbids them. Parsing and validation failures MUST be
+mapped to project-defined domain exceptions; raw third-party validation errors
+MUST NOT leak through public interfaces.
+Rationale: Consumers need stable failure modes and actionable errors even as the
+OpenAlex API evolves.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Compatibility and Minimal Surface Area
+Public models and exception contracts MUST evolve conservatively. Breaking
+changes to field names, aliases, error types, or strictness semantics MUST be
+explicitly documented and versioned. New abstractions SHOULD be introduced only
+when tests and repeated use cases justify them.
+Rationale: A small, stable API surface keeps parsing behavior reliable for
+long-lived clients and notebooks.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Technical Standards
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Runtime MUST be Python 3.12 or newer.
+- Pydantic MUST be version 2.x, and model validation MUST be configured for
+	strict behavior by default.
+- Model configuration MUST enforce immutability via frozen settings.
+- Alias generation MUST support camelCase API keys and keyword/built-in remaps
+	to trailing underscores.
+- Parsing entry points MUST normalize validation failures into custom domain
+	exceptions exposed by this package.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Development Workflow and Quality Gates
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+1. Tests are authored first and MUST fail before implementation begins.
+2. Each pull request MUST prove 100% coverage for all new and modified code.
+3. Each pull request MUST include tests for alias behavior, strict validation,
+	immutability, and domain exception mapping when affected.
+4. Code review MUST reject changes that bypass domain exceptions or weaken type
+	and validation guarantees.
+5. Release notes MUST call out any contract-impacting changes.
 
 ## Governance
 <!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution is the authoritative engineering policy for this repository.
+All plans, specs, tasks, and pull requests MUST pass constitution checks.
+Amendments require a documented pull request that includes: rationale, impact,
+version bump classification, and updates to affected templates or guidance.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+Versioning policy:
+- MAJOR: Removal or incompatible redefinition of a core principle or mandatory
+	quality gate.
+- MINOR: Addition of a principle/section or materially stricter governance.
+- PATCH: Clarifications and non-semantic wording improvements.
+
+Compliance review is required during planning, task generation, code review, and
+release preparation.
+
+**Version**: 1.0.0 | **Ratified**: 2026-06-28 | **Last Amended**: 2026-06-28
