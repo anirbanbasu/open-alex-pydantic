@@ -243,6 +243,7 @@ class Work(BaseEntity):
     publication_date: Optional[str] = None
     type_: Optional[str] = Field(default=None, alias="type")
     language: Optional[str] = None
+    cited_by: Optional[list[str]] = None
     cited_by_count: Optional[int] = None
     countries_distinct_count: Optional[int] = None
     institutions_distinct_count: Optional[int] = None
