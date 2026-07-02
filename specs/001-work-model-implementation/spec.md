@@ -8,6 +8,13 @@
 
 **Input**: User description: "Build the implementation of the Work Pydantic model at @file:work.py based on the documentation at https://developers.openalex.org/api-reference/works.md to adhere to the updated constitution."
 
+## Clarifications
+
+### Session 2026-07-02
+
+- Q: How should the system handle unknown/additive fields in parsed Work payloads? → A: Retain as a `model_extra` dict (accessible via a computed property), exclude from serialization.
+- Q: What public API surface should parsing entry points expose? → A: Single `model_validate` entry point with a thin wrapper for exception mapping.
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Parse documented Work payloads end-to-end (Priority: P1)
@@ -72,9 +79,9 @@ As an integrator, I want invalid Work payloads to fail with project domain excep
 - **FR-005**: System MUST NOT apply a global alias generator or blanket field-name transformation strategy.
 - **FR-006**: System MUST enforce immutable model instances for Work and all nested model structures within this feature scope.
 - **FR-007**: System MUST apply strict validation so incompatible input types are rejected instead of silently coerced.
-- **FR-008**: System MUST accept payloads containing additive unknown properties at any nesting level without failing validation solely due to those properties; unknown properties MAY be retained as extra data but MUST NOT alter validation outcomes for represented fields.
+- **FR-008**: System MUST accept payloads containing additive unknown properties at any nesting level without failing validation solely due to those properties; unknown properties are retained in a `model_extra` dict on the model instance (accessible via a computed property), MUST NOT alter validation outcomes for represented fields, and are excluded from serialization output.
 - **FR-009**: System MUST preserve compatibility for deprecated but still-present payload fields that are included in scope, including legacy concepts.
-- **FR-010**: System MUST expose public parsing entry points that map validation failures to project-defined domain exceptions.
+- **FR-010**: System MUST expose a single `Work.model_validate(payload)` entry point (with a thin wrapper function that catches `pydantic.ValidationError` and re-raises as a project-defined domain exception); no dual public APIs are required.
 - **FR-011**: System MUST include test coverage that validates all added and modified behavior for Work parsing, aliasing, strictness, immutability, unknown-field handling, and domain exception mapping.
 
 ### Quality and Validation Requirements *(mandatory)*
@@ -84,7 +91,7 @@ As an integrator, I want invalid Work payloads to fail with project domain excep
 - **QV-003**: Python code MUST use explicit type hints compatible with Python 3.12+.
 - **QV-004**: Pydantic v2 models MUST run with strict validation enabled and immutable frozen configuration.
 - **QV-005**: Models MUST map directly to native snake_case API fields with no global alias generators; manual aliases are allowed only for reserved/built-in remaps (e.g., id -> id_, type -> type_, license -> license_).
-- **QV-006**: Public parsing interfaces MUST map validation failures to domain exceptions.
+- **QV-006**: The single public parsing entry point (`model_validate` wrapper) MUST map all `pydantic.ValidationError` failures to project-defined domain exceptions.
 
 ### Key Entities *(include if feature involves data)*
 
